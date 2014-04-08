@@ -18,7 +18,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Treebook</a>
+					<a class="navbar-brand" href="/statuses">Treebook</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="#">
@@ -28,8 +28,11 @@
 				</div>
 
 			</div>
-		</div>	
+		</div>
+
 		<%= yield %>
+		<p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
 	</div>
 </body>
 </html>
